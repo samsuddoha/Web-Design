@@ -1,0 +1,79 @@
+
+body{
+	background-color:lightgray;
+	margin:0 auto;
+	font-family:Helvetica, sans-serif;
+}
+div{
+	max-width:60%;
+	background-color:white;
+	margin:30px auto;
+}
+nav{
+	text-align: center;
+	padding: 10px 20px;
+	background-color: antiquewhite;
+}
+header, footer{
+	background-color:#27ae60;
+	color:white;
+	text-align:center;
+	padding:15px;
+}
+/*Setting padding between leff and right border*/
+section{
+	padding: 0 20px;
+}
+
+/* designing each header inside section rag*/
+section h2 {
+	border-bottom: 2px solid #333;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	color: #333;
+}
+/*design un ordered list*/
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul li {
+	background: #f4f4f4;
+	margin: 5px 0;
+	padding: 10px;
+	border-left: 4px solid #333;
+}
+
+/*designing table*/
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 10px;
+}
+th, td{
+	border:2px solid #ddd;
+	padding: 0 15px;
+}
+table tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+table tr:hover{
+	background-color: #ddd;
+}
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+  }
+
+  /*designing form*/
+  .contact{
+			width: 60%;
+			margin: 20px auto;
+			background-color: #ddd;
+			padding: 20px;
+			border-radius: 7px;
+  }
