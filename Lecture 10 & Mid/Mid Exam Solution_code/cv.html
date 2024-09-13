@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header Section -->
+        <header>
+            <img src="photo.jpg" alt="Profile Photo">
+            <h1>Albert Bill Jukerberg</h1>
+            <p>Web Designer</p>
+            <p>Email: abj@bu.ac.bd | Phone: +8801700000022</p>
+            <p>Address: Dept of CSE, University of Barishal</p>
+        </header>
+
+         <!-- Nav Bar -->
+         <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#achievement">Achievements</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Short Bio -->
+        <section>
+            <h2>About Me</h2>
+            <p>Motivated web developer with 3 years of experience in creating dynamic and responsive websites using HTML, CSS, and JavaScript. Strong ability to learn and adapt to new technologies, with a passion for creating user-friendly designs.</p>
+        </section>
+
+        <!-- Skills -->
+        <section id ="skill" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>Bootstrap Framework</li>
+                <li>JavaScript & jQuery</li>
+                <li>PHP & MySQL</li>
+                <li>Adobe Photoshop & Illustrator</li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Senior Software Engineer</strong> - Samsung R&D Institute Ltd. (Jan 2022 - Present)
+                    <br>Developed and maintained the company website, ensuring a smooth user experience across all devices.
+                </li>
+                <li>
+                    <strong>Web Developer</strong> - ABC Solutions (Aug 2020 - Dec 2021)
+                    <br>Assisted in the development of client websites, focusing on front-end design and functionality.
+                </li>
+                <li>
+                    <strong>Intern</strong> - Software People (Jun 2019 - Jul 2020)
+                    <br>Worked on various small-scale projects, gaining hands-on experience in web design and development.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Passing Year</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>BSC in Computer Science & Engineering</td>
+                    <td>University of Alibaba</td>
+                    <td>2020</td>
+                    <td>4.00</td>
+                </tr>
+                <tr></tr>
+                    <td>Higher Secondary Certificate</td>
+                    <td>Hogwart Flying School</td>
+                    <td>2015</td>
+                    <td>5.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Achievements -->
+        <section id="achievement" class="achievements">
+            <h2>Achievements and Awards</h2>
+            <ul>
+                <li>Best Web Developer Award - 2021</li>
+                <li>Employee of the Month - XYZ Company - March 2023</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="project" class="projects">
+            <h2>Projects and Research</h2>
+            <ul>
+                <li>
+                    <strong>Project Title:</strong> Dynamic Portfolio Website
+                    <br>Developed a responsive portfolio website with interactive features using HTML, CSS, and JavaScript.
+                </li>
+                <li>
+                    <strong>Research Paper:</strong> Optimizing Web Performance
+                    <br>Conducted research on web performance optimization techniques and implemented findings in real-world projects.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p> &copy; 2024 Jukergberg - All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
