@@ -5,6 +5,7 @@ For your final project in this course, you are required to create a website base
 ## 1. Project Requirements:
 
 1. ⁠Minimum of 3 pages: Your website must have at least three pages.
+
 2.⁠ ⁠Key elements to include:
    - Header
    - Footer
