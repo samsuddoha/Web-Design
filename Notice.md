@@ -6,7 +6,7 @@ Here are some important updates and instructions as we conclude the course:
 - 4th October 2024.
 
 ## 2. Final Exam:
-- The *final exam* will be held on *9th October*. The time and details of the exam will be announced in Whatsapp Group.
+- The *final exam* will be held on **9th October**. The time and details of the exam will be announced in Whatsapp Group.
 - See a demo question and demo code in the Final exam folder. You can acced the question and code by clicking: [Demo Question](https://github.com/samsuddoha/Web-Design/blob/main/Final%20Exam/Sample%20Question.pdf) and [Demo Code](https://github.com/samsuddoha/Web-Design/tree/main/Final%20Exam/Demo%20code) 
 - Download the demo code and run it to get the output.
 
