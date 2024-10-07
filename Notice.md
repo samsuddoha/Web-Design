@@ -7,7 +7,7 @@ Here are some important updates and instructions as we conclude the course:
 
 ## 2. Final Exam:
 - The *final exam* will be held on *9th October*. The time and details of the exam will be announced in Whatsapp Group.
-- Question will be similar to mid exam or practice problems from classes but there may be multiple web pages in final exam.
+- See a demo question and demo code in the Final exam folder. [Demo Question]()
 
 ## 3. Profile Link Submission:
 - Many of you have not yet shared your **LinkedIn, GitHub, and freelancing site profile links** in the provided sheet. It is *mandatory* for everyone to submit these links. Please make sure to fill in the sheet as soon as possible.
