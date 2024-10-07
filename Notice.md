@@ -7,14 +7,15 @@ Here are some important updates and instructions as we conclude the course:
 
 ## 2. Final Exam:
 - The *final exam* will be held on *9th October*. The time and details of the exam will be announced in Whatsapp Group.
-- See a demo question and demo code in the Final exam folder. [Demo Question]()
+- See a demo question and demo code in the Final exam folder. You can acced the question and code by clicking: [Demo Question](https://github.com/samsuddoha/Web-Design/blob/main/Final%20Exam/Sample%20Question.pdf) and [Demo Code](https://github.com/samsuddoha/Web-Design/tree/main/Final%20Exam/Demo%20code) 
+- Download the demo code and run it to get the output.
 
 ## 3. Profile Link Submission:
 - Many of you have not yet shared your **LinkedIn, GitHub, and freelancing site profile links** in the provided sheet. It is *mandatory* for everyone to submit these links. Please make sure to fill in the sheet as soon as possible.
 
 ## 4. Final Project:
 - You need to *select an idea* for your final project. Once you've chosen your idea, please *enter it in the given sheet*. This step is essential for tracking your project progress.
-- Check the **Project.md** file for details instruction for project.
+- Check the [Project.md](https://github.com/samsuddoha/Web-Design/blob/main/Project.md) file for details instruction for project.
 
 ## 5. Assignment Submission:
 - The previous *assignment* should now be completed by all students before final exam. Submit this assignmit in github repository.
