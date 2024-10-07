@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Education Academy - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .circular-logo {
+            width: 100px;  /* Set the desired width */
+            height: 100px; /* Set the desired height */
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the entire area */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white p-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <!-- Logo (You can replace the text with an actual image if needed) -->
+            <div class="logo">
+                <img src="logo.jpg" class="img-fluid circular-logo" alt="Global Education Academy Logo">
+            </div>
+            <!-- Institution Name and Tagline -->
+            <div>
+                <h1 class="mb-0">Global Education Academy</h1>
+                <p class="mb-0">Empowering the Future</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">GEA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="register.html">Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section: Registration Page -->
+<main class="container mt-5">
+    <!-- Heading for Registration -->
+    <section class="col-md-6 offset-md-3 bg-light p-3 rounded">
+        <h2 class="mb-4 text-center">Student Registration</h2>
+        <form action="/register" method="post" id="registrationForm">
+            <!-- Name Field -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+            </div>
+
+            <!-- Email Field -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <!-- Phone Number Field -->
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required placeholder="Enter your phone number">
+            </div>
+
+            <!-- Course Selection Field -->
+            <div class="mb-3">
+                <label for="course" class="form-label">Course Selection:</label>
+                <select class="form-select" id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="web-development">Web Development Bootcamp</option>
+                    <option value="data-science">Data Science and Machine Learning</option>
+                    <option value="digital-marketing">Digital Marketing Strategies</option>
+                    <option value="graphic-design">Graphic Design Essentials</option>
+                    <option value="business-administration">Business Administration Fundamentals</option>
+                </select>
+            </div>
+
+            <!-- Gender Field -->
+            <div class="mb-3">
+                <label class="form-label">Gender:</label><br>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gender" id="other" value="other" required>
+                    <label class="form-check-label" for="other">Other</label>
+                </div>
+            </div>
+
+            <!-- Password Field -->
+            <div class="mb-3">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required placeholder="Create a password">
+            </div>
+
+            <!-- Confirm Password Field -->
+            <div class="mb-3">
+                <label for="confirm-password" class="form-label">Confirm Password:</label>
+                <input type="password" class="form-control" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </section>
+</main>
+
+   
+            <!-- Footer Section -->
+<footer class="bg-dark text-white mt-5 p-4">
+    <div class="container">
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-md-6">
+                <h5>Contact Us</h5>
+                <p><strong>Phone:</strong> +8801733 456 789</p>
+                <p><strong>Email:</strong> info@gea.edu</p>
+                <p><strong>Address:</strong> 123 Global Education Street, City, Country</p>
+            </div>
+
+            <!-- Quick Links (optional) -->
+            <div class="col-md-6">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Courses</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Registration</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Global Education Academy. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>     
+           
